@@ -10,7 +10,8 @@
 <body>
 
 <form action = {{url_for('result')}} method="post">
-	<input type="text" name="text_input">
+	<textarea type="text" name="text_input" rows="4" cols="50"> </textarea>
+	<br>
 	<input type = "submit" value="Submit">
 </form>
 <h1>Number of occurance is {{result}}</h1> 
